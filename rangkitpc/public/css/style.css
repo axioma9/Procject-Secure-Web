@@ -1,0 +1,52 @@
+.form-select, input[type="email"], input[type="password"], input[type="email"]:focus, input[type="password"]:focus, input[type="text"], input[type="text"]:focus {
+    background-color : #282838;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+body {
+    background-color: #282838;
+}
+
+input {
+    background-color : #282838;
+}
+
+.cancel_ico {
+    position: relative;
+    display: inline-block;
+}
+.cancel_ico .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.cancel_ico:hover .img-top {
+    display: inline;
+}
+
+/* table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+} */
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    color: grey;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.li.a{
+    text-decoration: none;
+    color: white;
+}

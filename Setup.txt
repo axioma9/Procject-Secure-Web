@@ -1,0 +1,14 @@
+Set up Database
+1. Nyalakan xampp
+2. buka phpmyadmin
+3. pilih New->buat database dengan nama rangkitpcbreeze
+3.1. pilih New->buat database dengan nama rangkitpc
+
+Setup mailhog
+1. Jalankan Mailhog.exe
+2. buka link http://localhost:8025
+
+Menjalankan laravel
+1. php artisan migrate --seed 	// membuat table di database rangkitpcbreeze| rangkitpc lalu seeding untuk data placeholder
+2. php artisan serve		// menyalakan laravel
+3. buka link http://127.0.0.1:8000/rangkitpc/builder
